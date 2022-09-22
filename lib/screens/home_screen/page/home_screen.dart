@@ -3,24 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:stepper_app/screens/demo_screen.dart';
 import 'package:stepper_app/utils/style_utiles.dart';
 
-enum SingleDouble { single, married }
 
-TextEditingController dobController = TextEditingController();
-TextEditingController nameController = TextEditingController();
-TextEditingController tenTHMarkController = TextEditingController();
-TextEditingController twelveMarkController = TextEditingController();
-TextEditingController collageMarkController = TextEditingController();
-TextEditingController emailController = TextEditingController();
-TextEditingController phoneController = TextEditingController();
-TextEditingController address1Controller = TextEditingController();
-TextEditingController nationalityController = TextEditingController();
-TextEditingController religionController = TextEditingController();
-TextEditingController languageController = TextEditingController();
-TextEditingController skill1Controller = TextEditingController();
-TextEditingController skill2Controller = TextEditingController();
-TextEditingController skill3Controller = TextEditingController();
-TextEditingController poController = TextEditingController();
-TextEditingController personalMarkController = TextEditingController();
 
 class HomePage extends StatefulWidget {
   HomePage({Key? key}) : super(key: key);
@@ -32,10 +15,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int initialIndex = 0;
 
-  dynamic maritalStatus = "Single";
 
-  bool isSingle = true;
-  bool isMarried = false;
 
   @override
   Widget build(BuildContext context) {
